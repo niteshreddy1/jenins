@@ -41,7 +41,11 @@
         </plugin>
         <plugin>
           <artifactId>maven-compiler-plugin</artifactId>
-          <version>3.8.0</version>
+          <version>3.8.1</version>
+          <configuration>
+                <source>8</source> <!-- Set the Java source compatibility level -->
+                <target>8</target> <!-- Set the Java target compatibility level -->
+          </configuration>
         </plugin>
         <plugin>
           <artifactId>maven-surefire-plugin</artifactId>
